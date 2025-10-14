@@ -6,7 +6,7 @@
     ami_id: "ami-09c813fb71547fc4f"
     sg_id: "sg-06a7ef8cd626b5b3e"
     zone_id: "Z00716421P5ZXLU5W7GIT"
-    domain name: "born96.fun"
+    domain_name: "born96.fun"
     instances: 
     - mongodb
   
