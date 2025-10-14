@@ -7,7 +7,8 @@
     sg_id: "sg-06a7ef8cd626b5b3e"
     zone_id: "Z00716421P5ZXLU5W7GIT"
     domain name: "born96.fun"
-
+    instances: 
+    - mongodb
   
   tasks:
   - name: create ec2 instance
@@ -23,4 +24,4 @@
 
   - name: print the ec2_output
     ansible.builtin.debug:
-    msg: "{{ ec2_output }}"
+      msg: "{{ ec2_output }}"
