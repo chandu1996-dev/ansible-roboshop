@@ -1,6 +1,7 @@
 - name: setup user server
   hosts: user
   become: yes
+  
   tasks:
   - name: disable default nodejs
     ansible.builtin.command: dnf module disable nodejs -y
