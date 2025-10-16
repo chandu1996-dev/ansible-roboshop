@@ -1,5 +1,5 @@
 - name: setup redis server
-  hosts: redis
+  hosts: 
   become: yes
 
   tasks:
@@ -42,4 +42,3 @@
       remote_src: yes
 
 
-      
