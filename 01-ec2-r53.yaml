@@ -9,6 +9,7 @@
     domain_name: "born96.fun"
     instances: 
     - mongodb
+    - redis
   
   tasks:
   - name: create ec2 instance
