@@ -1,0 +1,6 @@
+- name: create mongodb service
+  hosts: mongodb
+  become: yes
+
+  tasks:
+    - name: 

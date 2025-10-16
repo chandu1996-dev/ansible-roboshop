@@ -8,8 +8,11 @@
     zone_id: "Z00716421P5ZXLU5W7GIT"
     domain_name: "born96.fun"
     instances: 
-    - mongodb
-    - redis
+    # - mongodb
+    # - redis
+    - mysql
+    - rabbitmq
+    
   
   tasks:
   - name: create ec2 instance
