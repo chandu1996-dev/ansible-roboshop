@@ -1,4 +1,4 @@
-- name: create mongodb service
+- name: create mysql service
   hosts: mysql
   become: yes
 
